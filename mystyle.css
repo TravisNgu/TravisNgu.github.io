@@ -36,7 +36,7 @@ ul{
   
   /* Header **/
 header{
-  background:#35424a;
+  background:#003b02;
   color:#fffa78;
   padding-top:30px;
   min-height:70px;
@@ -82,7 +82,7 @@ header a:hover{
   /* Showcase */
 #showcase{
   min-height:400px;
-  background:url('../https://assets-prd.ignimgs.com/2022/12/06/game-of-the-year-thumb-1670343164462.jpg') no-repeat 0 -400px;
+  background:url('..https://assets-prd.ignimgs.com/2022/12/06/game-of-the-year-thumb-1670343164462.jpg') no-repeat 0 -400px;
   text-align:center;
   color:#ffffff;
 }
@@ -101,7 +101,7 @@ header a:hover{
 #newsletter{
   padding:15px;
   color:#ffffff;
-  background:#35424a
+  background:#003b02;
 }
   
 #newsletter h1{
@@ -109,7 +109,7 @@ header a:hover{
 }
   
 #newsletter form {
-  float:right;
+  float:center;
   margin-top:15px;
 }
   
