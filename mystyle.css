@@ -38,9 +38,9 @@ ul{
 header{
   background:#003b02;
   color:#fffa78;
-  padding-top:30px;
-  min-height:70px;
-  border-bottom:#008004 3px solid;
+  padding-top:20px;
+  min-height:50px;
+  border-bottom:#fffa78 3px solid;
 }
   
 header a{
