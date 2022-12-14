@@ -24,6 +24,10 @@ ul{
   padding-left: 20px;
   padding-right:20px;
   color:#fffa78;
+  border-top:#fffa78 3px solid;
+  border-bottom:#fffa78 3px solid;
+  border-right:#fffa78 3px solid;  
+  border-left:#fffa78 3px solid;
 }
   
 .dark{
