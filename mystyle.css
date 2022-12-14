@@ -39,12 +39,12 @@ header{
   background:#003b02;
   color:#fffa78;
   padding-top:20px;
-  min-height:50px;
+  min-height:70px;
   border-bottom:#fffa78 3px solid;
 }
   
 header a{
-  color:#26ff00;
+  color:#fffa78;
   text-decoration:none;
   text-transform: uppercase;
   font-size:20px;
