@@ -40,6 +40,7 @@ header{
   color:#fffa78;
   padding-top:20px;
   min-height:70px;
+  border-top:#fffa78 3px solid;
   border-bottom:#fffa78 3px solid;
 }
   
@@ -102,6 +103,8 @@ header a:hover{
   padding:15px;
   color:#ffffff;
   background:#fffa78;
+  border-top:#fffa78 3px solid;
+  border-bottom:#fffa78 3px solid;
 }
   
 #newsletter h1{
