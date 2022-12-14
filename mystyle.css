@@ -127,6 +127,7 @@ header a:hover{
 #boxes .box{
   float:left;
   text-align: center;
+  color:#fffa78;
   width:30%;
   padding:10px;
 }
