@@ -80,16 +80,17 @@ header .highlight, header .current a{
 }
   
 header a:hover{
-  color:#cccccc;
+  color:#ffec45;
   font-weight:bold;
 }
   
   /* Showcase */
 #showcase{
   min-height:400px;
-  background:url('../img/Game.jpg') no-repeat 0 -400px;
+  background:url('../img/Green.png') no-repeat 0 -200px;
   text-align:center;
   color:#fffa78;
+  border-bottom:#fffa78 3px solid;
 }
   
 #showcase h1{
@@ -105,19 +106,18 @@ header a:hover{
   /* Newsletter */
 #newsletter{
   padding:15px;
-  color:#ffffff;
+  color:#fffa78;
   background:#003b02;
-  border-top:#fffa78 3px solid;
-  border-bottom:#fffa78 3px solid;
 }
   
 #newsletter h1{
   float:left;
   color:#fffa78;
+  margin-right:10px;
 }
   
 #newsletter form {
-  float:left;
+  float:right;
   margin-top:15px;
 }
   
@@ -174,9 +174,9 @@ ul#services li{
 footer{
   padding:10px;
   margin-top:20px;
-  color:#fffa78;
-  background-color:#052400;
-  text-align: center;
+  color:#052400;
+  background-color:#fffa78;
+  text-align:center;
 }
   
   /* Media Queries */
