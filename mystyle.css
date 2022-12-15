@@ -84,9 +84,11 @@ header a:hover{
   font-weight:bold;
 }
   
+  /* Showcase */
 #showcase{
   min-height:400px;
-  background:url('../img/Green.png') no-repeat 0 -100px;
+  background:url("https://codehs.com/uploads/8e6bc9051392ce20f032761892351351") no-repeat -300px 0px;
+  background-size: 1900px 400px;
   text-align:center;
   color:#fffa78;
   border-bottom:#fffa78 3px solid;
@@ -102,6 +104,7 @@ header a:hover{
   font-size:20px;
 }
   
+  /* Newsletter */
 #newsletter{
   padding:15px;
   color:#fffa78;
