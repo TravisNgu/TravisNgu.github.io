@@ -1,5 +1,5 @@
 body{
-    font: 15px/1.5 Comic Sans;
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
     padding:0;
     margin:0;
     background-color:#003b02;
@@ -84,10 +84,9 @@ header a:hover{
   font-weight:bold;
 }
   
-  /* Showcase */
 #showcase{
   min-height:400px;
-  background:url('../img/Green.png') no-repeat 0 -200px;
+  background:url('../img/Green.png') no-repeat 0 -100px;
   text-align:center;
   color:#fffa78;
   border-bottom:#fffa78 3px solid;
@@ -103,7 +102,6 @@ header a:hover{
   font-size:20px;
 }
   
-  /* Newsletter */
 #newsletter{
   padding:15px;
   color:#fffa78;
