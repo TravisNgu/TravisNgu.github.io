@@ -3,6 +3,18 @@
     <head>
         <title>TN's Game Shop | Travis Nguyen</title>
         <link rel="stylesheet" href="./../mystyle.css">
+        <style>
+            /* Add animation styles */
+            .box img {
+                transition: transform 0.3s ease; /* Add transition for smooth scaling */
+                transform-origin: center; /* Set the transform origin to the center */
+            }
+            
+            .box img:hover {
+                border: 3px solid #fffa78;
+                transform: scale(1.1); /* Increase the scale value for a bigger image */
+            }
+        </style>
     </head>
     <body>
         <header>
@@ -22,17 +34,24 @@
         <section id="boxes">
             <div class="container">
                 <div class="box">
-                    <h1> Get Mario'd </h1>
                     <img src="https://forum.cavestory.org/data/avatars/h/10/10300.jpg?1548028270" style="width:250px;height:250px;">
-                    <h1>Super Epic Mario Premium Deluxe Limited Full Edition</h1>
+                    <h1>Get Mario'd</h1>
                     <h4>$999999.99<h4>
                     <p>Mario? Mario. Mario! MARIO! MARIOOOOOOOOOOOOOOOOOOOOOO!!!!!!!</p>
+                    <button type="submit" class="button_1">BUY</button>
+                </div>
+                <div class="box">
+                    <img src="https://m.media-amazon.com/images/I/71OWWCZNouL._AC_UF894,1000_QL80_.jpg" style="width:250px;height:250px;">
+                    <h1>Super Mario Premium Deluxe Limited Time Full Edition</h1>
+                    <h4>$14.99<h4>
+                    <p>A series of kart racing games and a spin-off Mario franchise developed and published by Nintendo.</p>
                     <button type="submit" class="button_1">BUY</button>
                 </div>
             </div>
         </section>
         <footer>
-            <p>TN Productions, Copyright &copy, 2022</p>
+            <h3>&copy;2023 TN Productions</h3>
+            <p>| Created by Travis Nguyen |</p>
         </footer>  
     </body>
 </html>
