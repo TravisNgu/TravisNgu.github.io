@@ -3,6 +3,18 @@
     <head>
         <title>TN's Game Shop | Travis Nguyen</title>
         <link rel="stylesheet" href="./../mystyle.css">
+        <style>
+            /* Add animation styles */
+            .box img {
+                transition: transform 0.3s ease; /* Add transition for smooth scaling */
+                transform-origin: center; /* Set the transform origin to the center */
+            }
+            
+            .box img:hover {
+                border: 3px solid #fffa78;
+                transform: scale(1.1); /* Increase the scale value for a bigger image */
+            }
+        </style>
     </head>
     <body>
         <header>
@@ -22,17 +34,47 @@
         <section id="boxes">
             <div class="container">
                 <div class="box">
-                    <h1> You Found a Secret Game! </h1>
+                    <h1>You Found a Secret Game!</h1>
                     <img src="https://deadline.com/wp-content/uploads/2021/03/GOT_KEYART_78448-1.jpg" style="width:250px;height:250px;">
                     <h1>Ghost of Tsushima</h1>
                     <h4>$39.99<h4>
                     <p>A 2020 action-adventure game developed by Sucker Punch Productions and published by Sony Interactive Entertainment. </p>
                     <button type="submit" class="button_1">BUY</button>
                 </div>
+                <div id="game-container">
+                    <h2>Guess the Number Game</h2>
+                    <h4>Try to guess the randomly generated number between 1 and 100.</h4>
+                    <input type="number" id="user-input" min="1" max="100">
+                    <button id="submit-button" type="button">Submit</button>
+                    <p id="result-message"></p>
+                </div>
             </div>
         </section>
         <footer>
-            <p>TN Productions, Copyright &copy, 2022</p>
-        </footer>  
+            <h3>&copy;2023 TN Productions</h3>
+            <p>| Created by Travis Nguyen |</p>
+        </footer>
+
+        <script>
+            // Guess the Number Game
+            const randomNumber = Math.floor(Math.random() * 100) + 1;
+            const userInput = document.getElementById('user-input');
+            const submitButton = document.getElementById('submit-button');
+            const resultMessage = document.getElementById('result-message');
+
+            submitButton.addEventListener('click', () => {
+                const guess = parseInt(userInput.value);
+
+                if (isNaN(guess) || guess < 1 || guess > 100) {
+                    resultMessage.textContent = 'Please enter a valid number between 1 and 100.';
+                } else if (guess === randomNumber) {
+                    resultMessage.textContent = 'Congratulations! You guessed the correct number!';
+                } else if (guess < randomNumber) {
+                    resultMessage.textContent = 'Try a higher number.';
+                } else {
+                    resultMessage.textContent = 'Try a lower number.';
+                }
+            });
+        </script>
     </body>
 </html>
