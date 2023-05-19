@@ -144,6 +144,14 @@ header a:hover{
 #boxes .box img{
   width:90px;
 }
+
+#game-container {
+  /* Add your styling properties for the game-container div here */
+  /* For example: */
+  background-color: #003b02;
+  color: #fffa78;
+  padding: 20px;
+}
   
   /* Sidebar */
 aside#sidebar{
@@ -175,7 +183,7 @@ ul#services li{
 footer{
   padding:10px;
   margin-top:20px;
-  color:#052400;
+  color:#003b02;
   background-color:#fffa78;
   text-align:center;
 }
